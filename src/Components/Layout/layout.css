@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ddd;
+    color: #f3f3;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 20px;
+}
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.menu li a:hover, .menu .menu-active{
+    color: blue;
+    text-decoration: underline;
+}
+main{
+    width: 80%;
+    margin: 20px auto;
+}
